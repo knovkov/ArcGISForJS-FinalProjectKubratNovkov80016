@@ -6,3 +6,15 @@ body,
     height: 100%;
     width: 100%;
 }
+#layerList-btn, #basemap-btn{
+    padding: 6px;
+}
+
+div.esri-component.esri-layer-list.esri-widget.esri-widget--panel{
+    display: none;
+} 
+.esri-basemap-gallery{
+    dispay:none;
+    position: absolute;
+    top: 40px;
+}
