@@ -60,7 +60,7 @@ require([
         nextbasemap: "arcgis-imagery"
       })
       
-      const BasemapGallery = new BasemapGallery({
+      const basemapGallery = new BasemapGallery({
         view: view,
         source: {
             query: {
@@ -69,7 +69,7 @@ require([
         },
       })
 
-      view.ui.add(BasemapGallery, "top-right");
+      view.ui.add(basemapGallery, "top-right");
 
       view.ui.add(basemapToggle, "bottom-right");
 
