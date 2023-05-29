@@ -20,10 +20,10 @@ require([
 
       const view = new MapView({
         container: "viewDiv",
-        map: WebMap
+        map: webMap
       });
 
-      const homeBtn = Home({
+      const homeBtn = new Home({
         view: view
       })
  
@@ -73,8 +73,8 @@ require([
 
       view.ui.add(basemapToggle, "bottom-right");
 
-      view.ui.add(layerList-btn, "top-right");
-      view.ui.add(basemap-btn, "top-right")
+      view.ui.add("layerList-btn", "top-right");
+      view.ui.add("basemap-btn", "top-right")
 
       document
       .getElementById("layerList-btn")

@@ -14,7 +14,7 @@ div.esri-component.esri-layer-list.esri-widget.esri-widget--panel{
     display: none;
 } 
 .esri-basemap-gallery{
-    dispay:none;
+    dispay: none;
     position: absolute;
     top: 40px;
 }
